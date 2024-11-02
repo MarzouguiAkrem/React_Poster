@@ -1,9 +1,10 @@
 * {
   box-sizing: border-box;
 }
+
 :root {
   min-height: 100vh;
-  font-family: Inter,Avenir, Arial, Helvetica, sans-serif;
+  font-family: Inter, Avenir, Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -11,15 +12,13 @@
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing : grayscale;
+  -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
-
 
 body {
   margin: 0;
   text-align: center;
-  color: #e6ddf9;
+  color: #ffffff; /* Change la couleur du texte pour contraster avec le fond */
+  background-color: #7f50e4; /* Couleur de fond violet */
 }
-
