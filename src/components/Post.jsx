@@ -1,10 +1,12 @@
-function Post() {
+
+function Post(props) {
+
     return (
         <di>
-            <p>Akrem</p>
-            <p>ReactJs is Awesome!</p>
+            <p>{props.author}</p>
+            <p>{props.body}</p>
         </di>
 
-    );
+    ); 
 }
 export default Post;
