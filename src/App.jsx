@@ -1,10 +1,8 @@
-
-import Post from "./components/Post";
+import PostList from "./components/PostsList";
 function App() {
   return (
     <main>
-    <Post author ="Akrem" body=" Ractjs is awsome!"/>
-    <Post author ="Ayhem" body=" check out the full course!!"/>
+   <PostList/>
 
   </main>
   );
