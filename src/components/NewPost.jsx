@@ -1,21 +1,17 @@
-import { useState } from 'react';
 import classes from './NewPost.module.css'
 
-function NewPost () {
-    const  [ enteredBody ,setEntredBody]= useState('');
-    function changeBodyHandler(event) {
-        setEntredBody(event.target.value);
-    }
+function NewPost (props) {
+    
     return (
         <form className={classes.form}>
             <p>
                 <label htmlFor='body'>Text</label>
-                <textarea id='body' required rows={3} onChange={changeBodyHandler}/>
+                <textarea id='body' required rows={3} onChange={props.onBodyChange}/>
             </p>
-            <p>{enteredBody}</p>
+           
             <p>
                 <label htmlFor='name'>Your name</label>
-                <textarea id='name' required/>
+                <textarea id='name' required onChange={props.onAuthorChange}/>
             </p>
 
         </form>
