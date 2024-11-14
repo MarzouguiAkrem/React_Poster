@@ -1,0 +1,25 @@
+.header {
+    /*padding: 2rem 10%;*/
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ece1fa;
+}
+.logo {
+    font-size: 2rem;
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    color: #ece1fa;
+
+}
+
+.button {
+    display: inline-flex;
+    font-size: 18px; /* Augmente la taille de la police */
+    padding: 10px 20px; /* Ajoute de l'espace à l'intérieur du bouton */
+    width: 150px; /* Largeur personnalisée */
+    height: 50px; /* Hauteur personnalisée */
+}
